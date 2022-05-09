@@ -1,0 +1,17 @@
+org: elsadany32
+console: true
+service: aws-node-serverless-lamba-plugn
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+
+functions:
+  api:
+    handler: handler.handler
+    events:
+      - httpApi: '*'
+    environment:
+      MONGODB_URL: mongodb+srv://elsadany32:01550148448abc@cluster0.kgapc.mongodb.net/bawesdb?retryWrites=true&w=majority      
