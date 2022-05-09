@@ -4,7 +4,6 @@
   "description": "",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.3.2",
     "serverless-http": "^2.7.0"
   }
 }
