@@ -12,4 +12,6 @@ functions:
   api:
     handler: handler.handler
     events:
-      - httpApi: '*' 
+      - httpApi: '*' 	 	
+    environment:
+      MONGODB_URL: URL_CONNECTION
