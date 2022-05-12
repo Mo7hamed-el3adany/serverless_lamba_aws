@@ -17,7 +17,7 @@
  3. Move into the newly created directory
 
     ```  	
-    cd your-service-name
+    cd your-service-name 
     ```
     
  4. Deploy Serverless
